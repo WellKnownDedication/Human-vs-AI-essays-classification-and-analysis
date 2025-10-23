@@ -12,7 +12,7 @@ if [ ! -d "$DEST_DIR" ] || [ -z "$(ls -A $DEST_DIR)" ]; then
     echo "Dataset not found. Downloading..."
 
     curl -L -o "$ZIP_FILE"\
-    https://www.kaggle.com/api/v1/datasets/download/majdmustafa/large-scale-vehicular-fog-computing-dataset
+    https://www.kaggle.com/api/v1/datasets/download/navjotkaushal/human-vs-ai-generated-essays
 
     # Unzip the dataset
     unzip -o "$ZIP_FILE" -d "$DEST_DIR"
