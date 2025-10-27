@@ -4,7 +4,7 @@ VENV_DIR="pvenv"
 REQUIREMENTS="requirements.txt"
 
 #Download dataset
-source scripts/data_download.sh
+#source scripts/data_download.sh # is a bad dataset
 
 if [ -d $VENV_DIR ] && [ -f "$VENV_DIR/bin/activate" ]
 then
